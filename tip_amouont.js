@@ -1,6 +1,6 @@
 //inputs
 var billTotal = 70.00
-var tipPercentage = 0.20
+var tipPercentage = 0.2
 
 
 //calculation
@@ -12,4 +12,4 @@ var totalAndTip = (billTotal + tip)
 //totalAndTip = 84
 //outputs
 console.log(tip)
-console.log("The tip on  a $70 food bill with a tip percentage of 20 is : " + totalAndTip.toFixed(2))
+console.log("The tip on  a $" + billTotal + " food bill with a tip percentage of " + tipPercentage + " is : " + totalAndTip.toFixed(2))
