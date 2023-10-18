@@ -1,3 +1,4 @@
+"use strict";
 //find the area of a rectangle
 
 //inputs
