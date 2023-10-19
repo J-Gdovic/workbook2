@@ -12,7 +12,7 @@ var areaOfTile = lengthOfTile * widthOfTile;
 //console.log("The area of one tile is: " + areaOfTile);
 
 //there are 12 tile in a box = 12sqft.per box
-var areaOfTile;
+var areaOfTile = 1;
 var tileInBox = 12;
 var areaOfbox = tileInBox * areaOfTile;
 
