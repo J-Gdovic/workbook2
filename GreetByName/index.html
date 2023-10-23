@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Name<input type="text" id="nameFeild" /></p>
+    <p><input id="greetBtn" type="button" value="Greet the user" onclick="greet()" /></p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, mollitia expedita culpa praesentium repellendus
+      earum quam enim aspernatur facilis molestiae.
+    </p>
+    <script>
+      function onGreetUserBtnClicked() {
+        let greetBtn = document.getElementById("greetBtn");
+      }
+      onGreetUserBtnClicked();
+
+      function greet() {
+        const nameFeild = document.getElementById("nameFeild");
+        let name = nameFeild.value;
+        window.alert("Hello " + name);
+      }
+    </script>
+  </body>
+</html>
